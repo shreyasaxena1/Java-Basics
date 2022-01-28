@@ -18,3 +18,13 @@ public class Myclass{
      
     }
 }
+
+
+//Stack implement
+     adq.offer(1);
+     adq.offer(2);
+     adq.offer(3);
+     
+     System.out.print(adq.pollLast());
+     System.out.print(adq.pollLast());
+     System.out.print(adq.pollLast());
