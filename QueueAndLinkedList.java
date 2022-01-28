@@ -18,3 +18,6 @@ public class Myclass{
      
     }
 }
+
+
+Queue<Integer> q = new PriorityQueue<>(); //minheap
