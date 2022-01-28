@@ -20,4 +20,8 @@ public class Myclass{
 }
 
 
+import java.util.PriorityQueue;
+import java.util.Comparator;
+
 Queue<Integer> q = new PriorityQueue<>(); //minheap
+Queue<Integer> q = new PriorityQueue<>(Comparator.reverseOrder()); //maxheap
