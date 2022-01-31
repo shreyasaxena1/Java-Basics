@@ -11,6 +11,9 @@ class Person{
     int age;
     float comp1,comp2;
     
+    public Person(){
+        System.out.println("Default Constructor");
+    }
     public Person(float c1,float c2){ //constructor
         comp1=c1;
         comp2=c2;
